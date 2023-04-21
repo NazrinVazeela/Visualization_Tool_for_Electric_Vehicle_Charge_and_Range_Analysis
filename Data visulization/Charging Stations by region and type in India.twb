@@ -1,0 +1,1319 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='electric_vehicle_charging_station_list' inline='true' name='federated.1f136g70e16jzw1fenxpu11075qq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='electric_vehicle_charging_station_list' name='textscan.0le0kz90dslitx17mthoj0swv1qy'>
+            <connection class='textscan' directory='C:/Users/my/Music/project' filename='electric_vehicle_charging_station_list.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0le0kz90dslitx17mthoj0swv1qy' name='electric_vehicle_charging_station_list.csv' table='[electric_vehicle_charging_station_list#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='region' ordinal='0' />
+            <column datatype='string' name='address' ordinal='1' />
+            <column datatype='string' name='aux addres' ordinal='2' />
+            <column datatype='real' name='latitude' ordinal='3' />
+            <column datatype='real' name='longitude' ordinal='4' />
+            <column datatype='string' name='type' ordinal='5' />
+            <column datatype='string' name='power' ordinal='6' />
+            <column datatype='string' name='service' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0le0kz90dslitx17mthoj0swv1qy' name='electric_vehicle_charging_station_list.csv' table='[electric_vehicle_charging_station_list#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='region' ordinal='0' />
+            <column datatype='string' name='address' ordinal='1' />
+            <column datatype='string' name='aux addres' ordinal='2' />
+            <column datatype='real' name='latitude' ordinal='3' />
+            <column datatype='real' name='longitude' ordinal='4' />
+            <column datatype='string' name='type' ordinal='5' />
+            <column datatype='string' name='power' ordinal='6' />
+            <column datatype='string' name='service' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[electric_vehicle_charging_station_list.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[region]</local-name>
+            <parent-name>[electric_vehicle_charging_station_list.csv]</parent-name>
+            <remote-alias>region</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[electric_vehicle_charging_station_list.csv_BDF04C9AFC414A2393B2588771B74990]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>address</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[address]</local-name>
+            <parent-name>[electric_vehicle_charging_station_list.csv]</parent-name>
+            <remote-alias>address</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[electric_vehicle_charging_station_list.csv_BDF04C9AFC414A2393B2588771B74990]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aux addres</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[aux addres]</local-name>
+            <parent-name>[electric_vehicle_charging_station_list.csv]</parent-name>
+            <remote-alias>aux addres</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[electric_vehicle_charging_station_list.csv_BDF04C9AFC414A2393B2588771B74990]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[electric_vehicle_charging_station_list.csv]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[electric_vehicle_charging_station_list.csv_BDF04C9AFC414A2393B2588771B74990]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[electric_vehicle_charging_station_list.csv]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[electric_vehicle_charging_station_list.csv_BDF04C9AFC414A2393B2588771B74990]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[electric_vehicle_charging_station_list.csv]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[electric_vehicle_charging_station_list.csv_BDF04C9AFC414A2393B2588771B74990]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>power</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[power]</local-name>
+            <parent-name>[electric_vehicle_charging_station_list.csv]</parent-name>
+            <remote-alias>power</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[electric_vehicle_charging_station_list.csv_BDF04C9AFC414A2393B2588771B74990]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>service</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[service]</local-name>
+            <parent-name>[electric_vehicle_charging_station_list.csv]</parent-name>
+            <remote-alias>service</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[electric_vehicle_charging_station_list.csv_BDF04C9AFC414A2393B2588771B74990]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='electric_vehicle_charging_station_list.csv' datatype='table' name='[__tableau_internal_object_id__].[electric_vehicle_charging_station_list.csv_BDF04C9AFC414A2393B2588771B74990]' role='measure' type='quantitative' />
+      <column caption='Address' datatype='string' name='[address]' role='dimension' type='nominal' />
+      <column caption='Aux Addres' datatype='string' name='[aux addres]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Power' datatype='string' name='[power]' role='dimension' type='nominal' />
+      <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+      <column caption='Service' datatype='string' name='[service]' role='dimension' type='nominal' />
+      <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='electric_vehicle_charging_station_list.csv' id='electric_vehicle_charging_station_list.csv_BDF04C9AFC414A2393B2588771B74990'>
+            <properties context=''>
+              <relation connection='textscan.0le0kz90dslitx17mthoj0swv1qy' name='electric_vehicle_charging_station_list.csv' table='[electric_vehicle_charging_station_list#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='region' ordinal='0' />
+                  <column datatype='string' name='address' ordinal='1' />
+                  <column datatype='string' name='aux addres' ordinal='2' />
+                  <column datatype='real' name='latitude' ordinal='3' />
+                  <column datatype='real' name='longitude' ordinal='4' />
+                  <column datatype='string' name='type' ordinal='5' />
+                  <column datatype='string' name='power' ordinal='6' />
+                  <column datatype='string' name='service' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='EVIndia' inline='true' name='federated.1jz131p13frwe41bpirpo0e1yefp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='EVIndia' name='textscan.1589dc81sljrfz15mqgxa0p6va5k'>
+            <connection class='textscan' directory='C:/Users/my/Music/project' filename='EVIndia.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1589dc81sljrfz15mqgxa0p6va5k' name='EVIndia.csv' table='[EVIndia#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Car' ordinal='0' />
+            <column datatype='string' name='Style' ordinal='1' />
+            <column datatype='string' name='Range' ordinal='2' />
+            <column datatype='string' name='Transmission' ordinal='3' />
+            <column datatype='string' name='VehicleType' ordinal='4' />
+            <column datatype='real' name='PriceRange(Lakhs)' ordinal='5' />
+            <column datatype='string' name='Capacity' ordinal='6' />
+            <column datatype='string' name='BootSpace' ordinal='7' />
+            <column datatype='string' name='BaseModel' ordinal='8' />
+            <column datatype='string' name='TopModel' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1589dc81sljrfz15mqgxa0p6va5k' name='EVIndia.csv' table='[EVIndia#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Car' ordinal='0' />
+            <column datatype='string' name='Style' ordinal='1' />
+            <column datatype='string' name='Range' ordinal='2' />
+            <column datatype='string' name='Transmission' ordinal='3' />
+            <column datatype='string' name='VehicleType' ordinal='4' />
+            <column datatype='real' name='PriceRange(Lakhs)' ordinal='5' />
+            <column datatype='string' name='Capacity' ordinal='6' />
+            <column datatype='string' name='BootSpace' ordinal='7' />
+            <column datatype='string' name='BaseModel' ordinal='8' />
+            <column datatype='string' name='TopModel' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[EVIndia.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Car</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Car]</local-name>
+            <parent-name>[EVIndia.csv]</parent-name>
+            <remote-alias>Car</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EVIndia.csv_CCB1FF538967454EA8121C141B2B5EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Style</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Style]</local-name>
+            <parent-name>[EVIndia.csv]</parent-name>
+            <remote-alias>Style</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EVIndia.csv_CCB1FF538967454EA8121C141B2B5EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Range</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Range]</local-name>
+            <parent-name>[EVIndia.csv]</parent-name>
+            <remote-alias>Range</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EVIndia.csv_CCB1FF538967454EA8121C141B2B5EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transmission</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Transmission]</local-name>
+            <parent-name>[EVIndia.csv]</parent-name>
+            <remote-alias>Transmission</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EVIndia.csv_CCB1FF538967454EA8121C141B2B5EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VehicleType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VehicleType]</local-name>
+            <parent-name>[EVIndia.csv]</parent-name>
+            <remote-alias>VehicleType</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EVIndia.csv_CCB1FF538967454EA8121C141B2B5EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PriceRange(Lakhs)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PriceRange(Lakhs)]</local-name>
+            <parent-name>[EVIndia.csv]</parent-name>
+            <remote-alias>PriceRange(Lakhs)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EVIndia.csv_CCB1FF538967454EA8121C141B2B5EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Capacity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Capacity]</local-name>
+            <parent-name>[EVIndia.csv]</parent-name>
+            <remote-alias>Capacity</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EVIndia.csv_CCB1FF538967454EA8121C141B2B5EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BootSpace</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BootSpace]</local-name>
+            <parent-name>[EVIndia.csv]</parent-name>
+            <remote-alias>BootSpace</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EVIndia.csv_CCB1FF538967454EA8121C141B2B5EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BaseModel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BaseModel]</local-name>
+            <parent-name>[EVIndia.csv]</parent-name>
+            <remote-alias>BaseModel</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EVIndia.csv_CCB1FF538967454EA8121C141B2B5EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TopModel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TopModel]</local-name>
+            <parent-name>[EVIndia.csv]</parent-name>
+            <remote-alias>TopModel</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EVIndia.csv_CCB1FF538967454EA8121C141B2B5EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Base Model' datatype='string' name='[BaseModel]' role='dimension' type='nominal' />
+      <column caption='Boot Space' datatype='string' name='[BootSpace]' role='dimension' type='nominal' />
+      <column caption='car_brands_India' datatype='string' name='[Calculation_246572097454645250]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='SPLIT([Car],&quot; &quot;,1)' />
+      </column>
+      <column caption='Top Model' datatype='string' name='[TopModel]' role='dimension' type='nominal' />
+      <column caption='Vehicle Type' datatype='string' name='[VehicleType]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='EVIndia.csv' datatype='table' name='[__tableau_internal_object_id__].[EVIndia.csv_CCB1FF538967454EA8121C141B2B5EE4]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='EVIndia.csv' id='EVIndia.csv_CCB1FF538967454EA8121C141B2B5EE4'>
+            <properties context=''>
+              <relation connection='textscan.1589dc81sljrfz15mqgxa0p6va5k' name='EVIndia.csv' table='[EVIndia#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Car' ordinal='0' />
+                  <column datatype='string' name='Style' ordinal='1' />
+                  <column datatype='string' name='Range' ordinal='2' />
+                  <column datatype='string' name='Transmission' ordinal='3' />
+                  <column datatype='string' name='VehicleType' ordinal='4' />
+                  <column datatype='real' name='PriceRange(Lakhs)' ordinal='5' />
+                  <column datatype='string' name='Capacity' ordinal='6' />
+                  <column datatype='string' name='BootSpace' ordinal='7' />
+                  <column datatype='string' name='BaseModel' ordinal='8' />
+                  <column datatype='string' name='TopModel' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Cheapestelectriccars-EVDatabase' inline='true' name='federated.0v9dyuw1si1dtc11ffixn0ed5zu4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Cheapestelectriccars-EVDatabase' name='textscan.0j4230j0rmqwtq1bzvpy81ilbgpg'>
+            <connection class='textscan' directory='C:/Users/my/Music/project' filename='Cheapestelectriccars-EVDatabase.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0j4230j0rmqwtq1bzvpy81ilbgpg' name='Cheapestelectriccars-EVDatabase.csv' table='[Cheapestelectriccars-EVDatabase#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='Subtitle' ordinal='1' />
+            <column datatype='string' name='Acceleration' ordinal='2' />
+            <column datatype='string' name='TopSpeed' ordinal='3' />
+            <column datatype='string' name='Range' ordinal='4' />
+            <column datatype='string' name='Efficiency' ordinal='5' />
+            <column datatype='string' name='FastChargeSpeed' ordinal='6' />
+            <column datatype='string' name='Drive' ordinal='7' />
+            <column datatype='integer' name='NumberofSeats' ordinal='8' />
+            <column datatype='string' name='PriceinGermany' ordinal='9' />
+            <column datatype='string' name='PriceinUK' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0j4230j0rmqwtq1bzvpy81ilbgpg' name='Cheapestelectriccars-EVDatabase.csv' table='[Cheapestelectriccars-EVDatabase#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='Subtitle' ordinal='1' />
+            <column datatype='string' name='Acceleration' ordinal='2' />
+            <column datatype='string' name='TopSpeed' ordinal='3' />
+            <column datatype='string' name='Range' ordinal='4' />
+            <column datatype='string' name='Efficiency' ordinal='5' />
+            <column datatype='string' name='FastChargeSpeed' ordinal='6' />
+            <column datatype='string' name='Drive' ordinal='7' />
+            <column datatype='integer' name='NumberofSeats' ordinal='8' />
+            <column datatype='string' name='PriceinGermany' ordinal='9' />
+            <column datatype='string' name='PriceinUK' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Cheapestelectriccars-EVDatabase.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[Cheapestelectriccars-EVDatabase.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cheapestelectriccars-EVDatabase.csv_B6B543B509EE413B80A41E49D34C389D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Subtitle</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Subtitle]</local-name>
+            <parent-name>[Cheapestelectriccars-EVDatabase.csv]</parent-name>
+            <remote-alias>Subtitle</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cheapestelectriccars-EVDatabase.csv_B6B543B509EE413B80A41E49D34C389D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Acceleration</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Acceleration]</local-name>
+            <parent-name>[Cheapestelectriccars-EVDatabase.csv]</parent-name>
+            <remote-alias>Acceleration</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cheapestelectriccars-EVDatabase.csv_B6B543B509EE413B80A41E49D34C389D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TopSpeed</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TopSpeed]</local-name>
+            <parent-name>[Cheapestelectriccars-EVDatabase.csv]</parent-name>
+            <remote-alias>TopSpeed</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cheapestelectriccars-EVDatabase.csv_B6B543B509EE413B80A41E49D34C389D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Range</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Range]</local-name>
+            <parent-name>[Cheapestelectriccars-EVDatabase.csv]</parent-name>
+            <remote-alias>Range</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cheapestelectriccars-EVDatabase.csv_B6B543B509EE413B80A41E49D34C389D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Efficiency</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Efficiency]</local-name>
+            <parent-name>[Cheapestelectriccars-EVDatabase.csv]</parent-name>
+            <remote-alias>Efficiency</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cheapestelectriccars-EVDatabase.csv_B6B543B509EE413B80A41E49D34C389D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FastChargeSpeed</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FastChargeSpeed]</local-name>
+            <parent-name>[Cheapestelectriccars-EVDatabase.csv]</parent-name>
+            <remote-alias>FastChargeSpeed</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cheapestelectriccars-EVDatabase.csv_B6B543B509EE413B80A41E49D34C389D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drive</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Drive]</local-name>
+            <parent-name>[Cheapestelectriccars-EVDatabase.csv]</parent-name>
+            <remote-alias>Drive</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cheapestelectriccars-EVDatabase.csv_B6B543B509EE413B80A41E49D34C389D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumberofSeats</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumberofSeats]</local-name>
+            <parent-name>[Cheapestelectriccars-EVDatabase.csv]</parent-name>
+            <remote-alias>NumberofSeats</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cheapestelectriccars-EVDatabase.csv_B6B543B509EE413B80A41E49D34C389D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PriceinGermany</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PriceinGermany]</local-name>
+            <parent-name>[Cheapestelectriccars-EVDatabase.csv]</parent-name>
+            <remote-alias>PriceinGermany</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cheapestelectriccars-EVDatabase.csv_B6B543B509EE413B80A41E49D34C389D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PriceinUK</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PriceinUK]</local-name>
+            <parent-name>[Cheapestelectriccars-EVDatabase.csv]</parent-name>
+            <remote-alias>PriceinUK</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cheapestelectriccars-EVDatabase.csv_B6B543B509EE413B80A41E49D34C389D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Fast Charge Speed' datatype='string' name='[FastChargeSpeed]' role='dimension' type='nominal' />
+      <column caption='Numberof Seats' datatype='integer' name='[NumberofSeats]' role='measure' type='quantitative' />
+      <column caption='Pricein Germany' datatype='string' name='[PriceinGermany]' role='dimension' type='nominal' />
+      <column caption='Pricein UK' datatype='string' name='[PriceinUK]' role='dimension' type='nominal' />
+      <column caption='Top Speed' datatype='string' name='[TopSpeed]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Cheapestelectriccars-EVDatabase.csv' datatype='table' name='[__tableau_internal_object_id__].[Cheapestelectriccars-EVDatabase.csv_B6B543B509EE413B80A41E49D34C389D]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Cheapestelectriccars-EVDatabase.csv' id='Cheapestelectriccars-EVDatabase.csv_B6B543B509EE413B80A41E49D34C389D'>
+            <properties context=''>
+              <relation connection='textscan.0j4230j0rmqwtq1bzvpy81ilbgpg' name='Cheapestelectriccars-EVDatabase.csv' table='[Cheapestelectriccars-EVDatabase#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Name' ordinal='0' />
+                  <column datatype='string' name='Subtitle' ordinal='1' />
+                  <column datatype='string' name='Acceleration' ordinal='2' />
+                  <column datatype='string' name='TopSpeed' ordinal='3' />
+                  <column datatype='string' name='Range' ordinal='4' />
+                  <column datatype='string' name='Efficiency' ordinal='5' />
+                  <column datatype='string' name='FastChargeSpeed' ordinal='6' />
+                  <column datatype='string' name='Drive' ordinal='7' />
+                  <column datatype='integer' name='NumberofSeats' ordinal='8' />
+                  <column datatype='string' name='PriceinGermany' ordinal='9' />
+                  <column datatype='string' name='PriceinUK' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='ElectricCarData_Clean' inline='true' name='federated.19e2cr90yxovxx1dakiro0k7usjj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ElectricCarData_Clean' name='textscan.08kieb80u8uywm1dhkap51h644la'>
+            <connection class='textscan' directory='C:/Users/my/Music/project' filename='ElectricCarData_Clean.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.08kieb80u8uywm1dhkap51h644la' name='ElectricCarData_Clean.csv' table='[ElectricCarData_Clean#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Brand' ordinal='0' />
+            <column datatype='string' name='Model' ordinal='1' />
+            <column datatype='real' name='AccelSec' ordinal='2' />
+            <column datatype='integer' name='TopSpeed_KmH' ordinal='3' />
+            <column datatype='integer' name='Range_Km' ordinal='4' />
+            <column datatype='integer' name='Efficiency_WhKm' ordinal='5' />
+            <column datatype='integer' name='FastCharge_KmH' ordinal='6' />
+            <column datatype='string' name='RapidCharge' ordinal='7' />
+            <column datatype='string' name='PowerTrain' ordinal='8' />
+            <column datatype='string' name='PlugType' ordinal='9' />
+            <column datatype='string' name='BodyStyle' ordinal='10' />
+            <column datatype='string' name='Segment' ordinal='11' />
+            <column datatype='integer' name='Seats' ordinal='12' />
+            <column datatype='integer' name='PriceEuro' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.08kieb80u8uywm1dhkap51h644la' name='ElectricCarData_Clean.csv' table='[ElectricCarData_Clean#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Brand' ordinal='0' />
+            <column datatype='string' name='Model' ordinal='1' />
+            <column datatype='real' name='AccelSec' ordinal='2' />
+            <column datatype='integer' name='TopSpeed_KmH' ordinal='3' />
+            <column datatype='integer' name='Range_Km' ordinal='4' />
+            <column datatype='integer' name='Efficiency_WhKm' ordinal='5' />
+            <column datatype='integer' name='FastCharge_KmH' ordinal='6' />
+            <column datatype='string' name='RapidCharge' ordinal='7' />
+            <column datatype='string' name='PowerTrain' ordinal='8' />
+            <column datatype='string' name='PlugType' ordinal='9' />
+            <column datatype='string' name='BodyStyle' ordinal='10' />
+            <column datatype='string' name='Segment' ordinal='11' />
+            <column datatype='integer' name='Seats' ordinal='12' />
+            <column datatype='integer' name='PriceEuro' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brand</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Brand]</local-name>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias>Brand</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AccelSec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AccelSec]</local-name>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias>AccelSec</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TopSpeed_KmH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TopSpeed_KmH]</local-name>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias>TopSpeed_KmH</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Range_Km</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Range_Km]</local-name>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias>Range_Km</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Efficiency_WhKm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Efficiency_WhKm]</local-name>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias>Efficiency_WhKm</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FastCharge_KmH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FastCharge_KmH]</local-name>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias>FastCharge_KmH</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RapidCharge</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RapidCharge]</local-name>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias>RapidCharge</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PowerTrain</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PowerTrain]</local-name>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias>PowerTrain</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PlugType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PlugType]</local-name>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias>PlugType</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BodyStyle</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BodyStyle]</local-name>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias>BodyStyle</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Segment]</local-name>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias>Segment</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Seats</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Seats]</local-name>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias>Seats</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PriceEuro</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PriceEuro]</local-name>
+            <parent-name>[ElectricCarData_Clean.csv]</parent-name>
+            <remote-alias>PriceEuro</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Accel Sec' datatype='real' name='[AccelSec]' role='measure' type='quantitative' />
+      <column caption='Body Style' datatype='string' name='[BodyStyle]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+      <column caption='Bodystyle_count' datatype='integer' name='[Calculation_246572097452347392]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([BodyStyle])' />
+      </column>
+      <column caption='count_Power Train' datatype='integer' name='[Calculation_246572097456037891]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([PowerTrain])' />
+      </column>
+      <column caption='Efficiency WhKm' datatype='integer' name='[Efficiency_WhKm]' role='measure' type='quantitative' />
+      <column caption='FastCharge KmH' datatype='integer' name='[FastCharge_KmH]' role='measure' type='quantitative' />
+      <column caption='Plug Type' datatype='string' name='[PlugType]' role='dimension' type='nominal' />
+      <column caption='Power Train' datatype='string' name='[PowerTrain]' role='dimension' type='nominal' />
+      <column caption='Price Euro' datatype='integer' name='[PriceEuro]' role='measure' type='quantitative' />
+      <column caption='Range Km' datatype='integer' name='[Range_Km]' role='measure' type='quantitative' />
+      <column caption='Rapid Charge' datatype='string' name='[RapidCharge]' role='dimension' type='nominal' />
+      <column caption='TopSpeed KmH' datatype='integer' name='[TopSpeed_KmH]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='ElectricCarData_Clean.csv' datatype='table' name='[__tableau_internal_object_id__].[ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E]' role='measure' type='quantitative' />
+      <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Brand:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Ford&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Smart&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Aiways&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Nissan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Citroen&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Porsche&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Volvo&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Honda&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sono&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CUPRA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Renault&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;MG&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Audi&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Opel&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mazda&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;DS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SEAT&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Lexus&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lightyear&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Mercedes&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mini&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Hyundai&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tesla&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Fiat&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Skoda&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;BMW&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Peugeot&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Lucid&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Jaguar&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Volkswagen&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Byton&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Polestar&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ElectricCarData_Clean.csv' id='ElectricCarData_Clean.csv_DAF0966055FA4BC995A8B7C69A2B6F0E'>
+            <properties context=''>
+              <relation connection='textscan.08kieb80u8uywm1dhkap51h644la' name='ElectricCarData_Clean.csv' table='[ElectricCarData_Clean#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Brand' ordinal='0' />
+                  <column datatype='string' name='Model' ordinal='1' />
+                  <column datatype='real' name='AccelSec' ordinal='2' />
+                  <column datatype='integer' name='TopSpeed_KmH' ordinal='3' />
+                  <column datatype='integer' name='Range_Km' ordinal='4' />
+                  <column datatype='integer' name='Efficiency_WhKm' ordinal='5' />
+                  <column datatype='integer' name='FastCharge_KmH' ordinal='6' />
+                  <column datatype='string' name='RapidCharge' ordinal='7' />
+                  <column datatype='string' name='PowerTrain' ordinal='8' />
+                  <column datatype='string' name='PlugType' ordinal='9' />
+                  <column datatype='string' name='BodyStyle' ordinal='10' />
+                  <column datatype='string' name='Segment' ordinal='11' />
+                  <column datatype='integer' name='Seats' ordinal='12' />
+                  <column datatype='integer' name='PriceEuro' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='electric_vehicle_charging_station_list' name='federated.1f136g70e16jzw1fenxpu11075qq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1f136g70e16jzw1fenxpu11075qq'>
+            <column caption='Aux Addres' datatype='string' name='[aux addres]' role='dimension' type='nominal' />
+            <column-instance column='[aux addres]' derivation='CountD' name='[ctd:aux addres:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1f136g70e16jzw1fenxpu11075qq].[none:region:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:region:nk]' />
+              <groupfilter function='member' level='[none:region:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1f136g70e16jzw1fenxpu11075qq].[none:region:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1f136g70e16jzw1fenxpu11075qq].[none:type:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1f136g70e16jzw1fenxpu11075qq].[ctd:aux addres:qk]</rows>
+        <cols>[federated.1f136g70e16jzw1fenxpu11075qq].[none:region:nk]</cols>
+      </table>
+      <simple-id uuid='{D2908B1C-96E3-4DDF-A44E-EBAA592483CF}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='93'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1f136g70e16jzw1fenxpu11075qq].[none:type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1f136g70e16jzw1fenxpu11075qq].[none:aux addres:nk]</field>
+            <field>[federated.1f136g70e16jzw1fenxpu11075qq].[none:region:nk]</field>
+            <field>[federated.1f136g70e16jzw1fenxpu11075qq].[none:type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{727E3EBC-68C7-416D-BDB8-173D3075939F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
